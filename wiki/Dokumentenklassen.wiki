@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+Hier sollen die Dokumentenstrukturen der unterschiedlichen Dokumentenklassen erklärt werden.
+
+Grundsätzlicher Aufbau:
+Alle Dokumente innerhalb der DB werden über den key "docClass" kategorisiert. Dies soll die oberste Strukturebene sein.
+
+= Klasse: DownloadRequest =
+So ein Dokument wird von dem Request des Bookmarklets erzeugt und enthält hauptsächlich die URL der Seite, auf der das herunterzuladende Medium sich befindet.
+
+= JSON Objekt =
+
+{{{
+{
+   "_id": "79cc02124fe3720e7725739d09000bd6",
+   "docClass": "downloadRequest",
+   "submitter": "bp",
+   "url": "http://"
+}
+}}}
