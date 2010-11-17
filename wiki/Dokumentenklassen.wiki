@@ -7,7 +7,7 @@ Alle Dokumente innerhalb der DB werden über den key "docClass" kategorisiert. D
 = Klasse: DownloadRequest =
 So ein Dokument wird von dem Request des Bookmarklets erzeugt und enthält hauptsächlich die URL der Seite, auf der das herunterzuladende Medium sich befindet.
 
-= JSON Objekt =
+== JSON Objekt ==
 
 {{{
 {
@@ -23,23 +23,23 @@ So ein Dokument wird von dem Request des Bookmarklets erzeugt und enthält haupt
 = Klasse: Media =
 Dieses Dokument enthält als Attachment das eigentliche Medium sowie ein Script zur Anweisung, wie dieses Medium angezeigt und abgespielt werden soll.
 
-= JSON Objekt =
+== JSON Objekt ==
 
 {{{
 {
    "_id": "456",
    "docClass": "media",
-   "mediaType": "flv",
+   "mediaType": "flv",                        //evtl. überflüssig
    "mediaSource": "youtube",
-   "submitter": [
+   "submitter": [                             //jeder der das gleiche mediadoc angefordert hat wird hier aufgeführt. Somit könnte man nur seine eigenen Medias filtern.
        "bp",
        "sklein"
    ],
    "mediaTitle": "ZBrush 4 - Alpha Roll (Custom Brushes)",
-   "mediaLength": 155,
-   "mediaSize": 2500,
-   "mediaSizeAudio": 1000,
-   "audioAvailable": true,
+   "mediaLength": 155,                        //Länge in Sekunden
+   "mediaSize": 2500,                         //Größe in KB
+   "mediaSizeAudio": 1000,                    //Größe der Audiodatei (falls vorhanden)
+   "audioAvailable": true,                    //konnte aus dem Video der Ton extrahiert werden?
    "mediaTags": [
        "ZBrush",
        "ZBrush 4",
