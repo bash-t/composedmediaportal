@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
-Hier sollen die Dokumentenstrukturen der unterschiedlichen Dokumentenklassen erklärt werden.
+#summary Hier sollen die Dokumentenstrukturen der unterschiedlichen Dokumentenklassen erklärt werden.
+
 
 Grundsätzlicher Aufbau:
 Alle Dokumente innerhalb der DB werden über den key "docClass" kategorisiert. Dies soll die oberste Strukturebene sein.
