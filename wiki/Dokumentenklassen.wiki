@@ -7,7 +7,7 @@ Alle Dokumente innerhalb der DB werden über den key "docClass" kategorisiert. D
 = Klasse: DownloadRequest =
 So ein Dokument wird von dem Request des Bookmarklets erzeugt und enthält hauptsächlich die URL der Seite, auf der das herunterzuladende Medium sich befindet.
 
-== JSON Objekt ==
+=== JSON Objekt ===
 
 {{{
 {
@@ -23,7 +23,7 @@ So ein Dokument wird von dem Request des Bookmarklets erzeugt und enthält haupt
 = Klasse: Media =
 Dieses Dokument enthält als Attachment das eigentliche Medium sowie ein Script zur Anweisung, wie dieses Medium angezeigt und abgespielt werden soll.
 
-== JSON Objekt ==
+=== JSON Objekt ===
 
 {{{
 {
