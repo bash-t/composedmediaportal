@@ -33,7 +33,7 @@ Dieses Dokument enthält als Attachment das eigentliche Medium sowie ein Script 
    "mediaSource": "youtube",
    "submitter": [                             //jeder der das gleiche mediadoc angefordert hat wird hier aufgeführt. Somit könnte man nur seine eigenen Medias filtern.
        "bp",
-       "sklein"
+       "skl"
    ],
    "mediaTitle": "ZBrush 4 - Alpha Roll (Custom Brushes)",
    "mediaLength": 155,                        //Länge in Sekunden
@@ -55,3 +55,9 @@ Dieses Dokument enthält als Attachment das eigentliche Medium sowie ein Script 
    ]
 }
 }}}
+
+
+= Klasse: ... =
+Weitere Dokumentenklassen für URL Worker etc....
+
+=== JSON Objekt ===
