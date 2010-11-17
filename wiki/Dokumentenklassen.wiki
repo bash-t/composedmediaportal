@@ -11,9 +11,47 @@ So ein Dokument wird von dem Request des Bookmarklets erzeugt und enthält haupt
 
 {{{
 {
-   "_id": "79cc02124fe3720e7725739d09000bd6",
+   "_id": "123",
    "docClass": "downloadRequest",
-   "submitter": "bp",
-   "url": "http://"
+   "submitter": "bp", //wird im Bookmarklet konfiguriert.
+   "url": "http://www.youtube.com/watch?v=eY2_EPG-zWY&feature=grec_index"
+}
+}}}
+
+
+
+= Klasse: Media =
+Dieses Dokument enthält als Attachment das eigentliche Medium sowie ein Script zur Anweisung, wie dieses Medium angezeigt und abgespielt werden soll.
+
+= JSON Objekt =
+
+{{{
+{
+   "_id": "456",
+   "docClass": "media",
+   "mediaType": "flv",
+   "mediaSource": "youtube",
+   "submitter": [
+       "bp",
+       "sklein"
+   ],
+   "mediaTitle": "ZBrush 4 - Alpha Roll (Custom Brushes)",
+   "mediaLength": 155,
+   "mediaSize": 2500,
+   "mediaSizeAudio": 1000,
+   "audioAvailable": true,
+   "mediaTags": [
+       "ZBrush",
+       "ZBrush 4",
+       "3D Sculpting",
+       "3D videos",
+       "ZBrush tutorial",
+       "Alpha Roll",
+       "Custom Brushes"
+   ],
+   "_attachment": [
+       "movie.flv",
+       "audio.mp3"
+   ]
 }
 }}}
