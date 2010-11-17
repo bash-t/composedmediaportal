@@ -1,4 +1,4 @@
-#Javascript for bookmarklet
+#summary Javascript for bookmarklet
 
 
 
@@ -14,7 +14,8 @@ javascript:
   i.name='??';
   i.id='??';
   i.type='hidden';
-  i.value='{\"submitter\": \"bp\", \"URL\": \"' document.URL; '\"}';
+  i.value='{\"submitter\": \"bp\", \"URL\": \"' document.URL '\"}';
   frm.appendChild(i);
   document.body.appendChild(frm);
-  frm.submit();}}}
+  frm.submit();
+}}}
