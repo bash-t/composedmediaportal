@@ -1,0 +1,15 @@
+
+```
+javascript: 
+  var frm=document.createElement('form');
+  frm.method='POST';
+  frm.action='http://bash-t.kicks-ass.net:55984/comp_req';
+  var i=document.createElement('input');
+  i.name='??';
+  i.id='??';
+  i.type='hidden';
+  i.value='{\"submitter\": \"bp\", \"URL\": \"' document.URL '\"}';
+  frm.appendChild(i);
+  document.body.appendChild(frm);
+  frm.submit();
+```
